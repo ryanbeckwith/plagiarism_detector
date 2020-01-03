@@ -144,30 +144,4 @@ public class Detector
   {
     return similarityScore;
   }
-  
-  //Main method testing.
-  public static void main(String[] args)
-  {
-    Detector d = new Detector("Pennsylvania", "Pencilvaneya");
-    Detector d2 = new Detector("Hello", "Hell");
-    Detector d3 = new Detector("Youre", "Goodbye");
-    Detector d4 = new Detector("Zyzzyva", "Enter");
-    Detector d5 = new Detector("They", "Yeht");
-    Detector d6 = new Detector("Interesting", "Interested");
-    Detector d7 = new Detector("q$#TGFDGAw4", "%HWTEHWWFQWR95tq4$#%#451");
-    System.out.println(d.similarityScore);
-    System.out.println(d.cList);
-    System.out.println(d2.similarityScore);
-    System.out.println(d2.cList);
-    System.out.println(d3.similarityScore);
-    System.out.println(d3.cList);
-    System.out.println(d4.similarityScore);
-    System.out.println(d4.cList);
-    System.out.println(d5.similarityScore);
-    System.out.println(d5.cList);
-    System.out.println(d6.similarityScore);
-    System.out.println(d6.cList);
-    System.out.println(d7.similarityScore);
-    System.out.println(d7.cList);
-  }
 }
