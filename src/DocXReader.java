@@ -81,12 +81,4 @@ public class DocXReader implements Reader
     }
     return document;
   }
-  
-  //Main method testing.
-  public static void main(String[] args)
-  {
-    String name = "Submissions\\Doc9.docx";
-    DocXReader docReader = new DocXReader(name);
-    System.out.println(docReader.readFile());
-  }
 }
