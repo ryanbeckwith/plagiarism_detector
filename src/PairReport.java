@@ -234,12 +234,3 @@ public class PairReport implements Comparable<PairReport>
     s += "Largest C: " + getCList().get(getCList().size() - 1) + "\n";
     return s;
   }
-  
-  //Main method testing.
-  public static void main(String[] args)
-  {
-    PairReport pair1 = new PairReport("Sources\\Doc0.docx", "Submissions\\Doc1.docx", "X", "X");
-    System.out.println(pair1);
-    System.out.println(pair1.getCList());
-  }
-}
