@@ -50,20 +50,4 @@ public class Cleaner
     s = s.toLowerCase();
     return s;
   }
-  
-  //Main method testing.
-  public static void main(String[] args)
-  {
-    System.out.println(cleanXML("<hello>my name is</hello>"));
-    System.out.println(cleanWhiteSpace("Hello        my name is    Ryan\r\n" + 
-        "\r\n" + 
-        " Good morning\r\n" + 
-        "    Hello   new york    \r\n" + 
-        "  goodbye"));
-    System.out.println(cleanFull("!@#%@#^@$%^#%!@#!@#$!@#\r\n" + 
-        "314 134 #$! %1 51 451#%!@#4 \r\n" + 
-        "\r\n" + 
-        "   1  w342$233$#4#213Fsjalejae\r\n" + 
-        "j14;324i$ 4%!$%J$%!32 jifQI1 #!$3$Rj q%$!@#% !gMN?:?<>?<:??"));
-  }
 }
